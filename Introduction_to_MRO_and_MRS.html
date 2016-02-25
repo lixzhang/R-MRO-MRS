@@ -568,7 +568,7 @@ blocksPerRead must be 1 if predictions or residuals are be being written to the 
 <h3 id="3.1-Capacity">3.1 Capacity<a class="anchor-link" href="#3.1-Capacity">&#182;</a></h3><p>Both R and MRO can only process data in-memory. So if the data size is larger than memory size, they cannot load the data successfully and thus cannot process them. This also applies to base R functions under the MRS environment. Even when the data size is less than memory they could fail for more complicated analyses.</p>
 <p>The HPA functions in MRS, on the other hand, allows processing data block by block. To do this it uses a data file format (.xdf) that is extremely efficient for both reading and writing data. These functions can still process in-memory data. But they allow the data to be disk-based as well.</p>
 <p>For example, the following example shows that for a large dataset rxKmeans() runs successfully but kmeans() does not.</p>
-<p>We start by simulating data with 60,000,000 rows and 2 columns, which takes up 2.4 GB disk space.</p>
+<p>We start by simulating data with 60,000,000 rows and 2 columns, which takes up 2.2 GB disk space.</p>
 
 </div>
 </div>
