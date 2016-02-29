@@ -5,5 +5,5 @@ The purpose of this write-up is to help data scientists who are familiar with R 
 To view the complete document, go to
 http://htmlpreview.github.io/?https://github.com/lixzhang/R-MRO-MRS/blob/master/Introduction_to_MRO_and_MRS.html
 
-To download the source file (Jupyter notebook), right click the following link and select "Save link as":
+To download the source file (Jupyter notebook), open the following link, then right click on "Raw" and select "Save target as":
 https://github.com/lixzhang/R-MRO-MRS/blob/master/Introduction_to_MRO_and_MRS.ipynb
