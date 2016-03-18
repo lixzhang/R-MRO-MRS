@@ -654,7 +654,7 @@ Error: cannot allocate vector of size 915.5 Mb
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[1]:</div>
+<div class="prompt input_prompt">In&nbsp;[8]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-r"><pre><span class="c1"># cluster analysis with rxKmeans</span>
@@ -679,16 +679,9 @@ system_time_MRS <span class="o">&lt;-</span>
 
 
 <div class="output_area"><div class="prompt"></div>
-<div class="output_subarea output_text output_error">
-<pre>
-Error in rxKmeans(~V1 + V2, data = dataXDF, numClusters = nclusters, algorithm = &quot;lloyd&quot;, : object &apos;dataXDF&apos; not found
-</pre>
-</div>
-</div>
-
-<div class="output_area"><div class="prompt"></div>
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>Timing stopped at: 0.01 0 0.02 
+<pre>
+blocksPerRead must be 1 if predictions or residuals are be being written to the input data source.
 </pre>
 </div>
 </div>
@@ -702,7 +695,7 @@ Error in rxKmeans(~V1 + V2, data = dataXDF, numClusters = nclusters, algorithm =
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="3.2-Speed">3.2 Speed<a class="anchor-link" href="#3.2-Speed">&#182;</a></h3><h4 id="3.2.1-Base-R-Functions">3.2.1 Base R Functions<a class="anchor-link" href="#3.2.1-Base-R-Functions">&#182;</a></h4><p>With the RevoUtilsMath package on multi-core computers, MRO performs better than base R for many matrix related functions. For example, running the following code from <a href="https://mran.revolutionanalytics.com/documents/rro/multithread/#mt-bench">MRAN's Performance Benchmarks page</a> on R, MRO, and MRS shows that MRO and MRS performed better than R.</p>
+<h3 id="3.2-Speed">3.2 Speed<a class="anchor-link" href="#3.2-Speed">&#182;</a></h3><h4 id="3.2.1-Base-R-Functions">3.2.1 Base R Functions<a class="anchor-link" href="#3.2.1-Base-R-Functions">&#182;</a></h4><p>With the RevoUtilsMath package on multi-core computers, MRO performs better than base R for many matrix related functions. For example, running the following code from <a href="http://mran.revolutionanalytics.com/documents/rro/multithread/#mt-bench">MRAN's Performance Benchmarks</a> on R, MRO, and MRS shows that MRO and MRS performed better than R.</p>
 
 </div>
 </div>
