@@ -7,3 +7,7 @@ http://htmlpreview.github.io/?https://github.com/lixzhang/R-MRO-MRS/blob/master/
 
 To download the source file (a Jupyter notebook), open the following link, then right click on "Raw" and select "Save target as":
 https://github.com/lixzhang/R-MRO-MRS/blob/master/Introduction_to_MRO_and_MRS.ipynb
+
+---
+Created by a Microsoft Employee.  
+Copyright (C) Microsoft. All Rights Reserved.
